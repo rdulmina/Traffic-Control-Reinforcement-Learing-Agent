@@ -1,9 +1,10 @@
-<center>Minimize Traffic Congestion with Emergency Facilitation using DeepReinforcement Learning.</center>
+# Minimize Traffic Congestion with Emergency Facilitation using DeepReinforcement Learning.<br>
+
 
 **Abstract**
-<div style="text-align: justify">
-In intelligent traffic light control, matrices derived from real-time traffic data are paramount for effi-ciency and performance.  The rewards and state representations in previous studies could mislead a Reinforcement Learning agent in some cases. This paper examines the effectiveness of considering the Standard Deviation of vehicle’s Wait-ing Time (SDWT) on Deep Reinforcement Learning based traffic congestion control with emergency facilitation. The proposed method was selfevaluated by only considering average waiting time under both synthetic and Toronto real-world dataset.  It has demonstrated that the proposed method was able to gain a significant impact on performance by considering the SDWT. More-over, the proposed method was able to reach zero waiting time for emergency vehicles.
-</div><br>
+
+> In intelligent traffic light control, matrices derived from real-time traffic data are paramount for effi-ciency and performance.  The rewards and state representations in previous studies could mislead a Reinforcement Learning agent in some cases. This paper examines the effectiveness of considering the Standard Deviation of vehicle’s Wait-ing Time (SDWT) on Deep Reinforcement Learning based traffic congestion control with emergency facilitation. The proposed method was selfevaluated by only considering average waiting time under both synthetic and Toronto real-world dataset.  It has demonstrated that the proposed method was able to gain a significant impact on performance by considering the SDWT. More-over, the proposed method was able to reach zero waiting time for emergency vehicles.
+<br>
 
 **Please run the Testing section of Agent.ipynb to run the agent**
 
