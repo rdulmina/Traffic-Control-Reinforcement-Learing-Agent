@@ -1,0 +1,70 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+   <vType id="SUMO_DEFAULT_TYPE" accel="2.6" decel="4.5" sigma="1" length="4" minGap="2" maxSpeed="50"/>
+   <vType id="emergency" guiShape="emergency" accel="2.9" decel="4.9" sigma="1" length="5" minGap="2" maxSpeed="60"/>
+<!-- 1si to 2o -->
+ <route id="1si_to_2o" edges="1fi 1si 2o "/>
+ <flow id="1si_to_2o" type="SUMO_DEFAULT_TYPE" route="1si_to_2o" begin="0" end="10000000000" period="25"/>
+
+<!-- 1si to 3o -->
+ <route id="1si_to_3o" edges="1fi 1si 3o "/>
+ <flow id="1si_to_3o" type="SUMO_DEFAULT_TYPE" route="1si_to_3o" begin="0" end="10000000000" period="25"/>
+
+<!-- 1si to 4o -->
+ <route id="1si_to_4o" edges="1fi 1si 4o "/>
+ <flow id="1si_to_4o" type="SUMO_DEFAULT_TYPE" route="1si_to_4o" begin="0" end="10000000000" period="25"/>
+
+<!-- 2si to 1o -->
+ <route id="2si_to_1o" edges="2fi 2si 1o "/>
+ <flow id="2si_to_1o" type="SUMO_DEFAULT_TYPE" route="2si_to_1o" begin="0" end="10000000000" period="25"/>
+
+<!-- 2si to 3o -->
+ <route id="2si_to_3o" edges="2fi 2si 3o "/>
+ <flow id="2si_to_3o" type="SUMO_DEFAULT_TYPE" route="2si_to_3o" begin="0" end="10000000000" period="25"/>
+ 
+<!-- 2si to 4o -->
+ <route id="2si_to_4o" edges="2fi 2si 4o "/>
+ <flow id="2si_to_4o" type="SUMO_DEFAULT_TYPE" route="2si_to_4o" begin="0" end="10000000000" period="25"/>
+
+<!-- 3si to 1o -->
+ <route id="3si_to_1o" edges="3fi 3si 1o"/>
+ <flow id="3si_to_1o" type="SUMO_DEFAULT_TYPE" route="3si_to_1o" begin="0" end="10000000000" period="25"/>
+
+<!-- 3si to 2o -->
+ <route id="3si_to_2o" edges="3fi 3si 2o"/>
+ <flow id="3si_to_2o" type="SUMO_DEFAULT_TYPE" route="3si_to_2o" begin="0" end="10000000000" period="25"/>
+
+<!-- 3si to 4o -->
+ <route id="3si_to_4o" edges="3fi 3si 4o"/>
+ <flow id="3si_to_4o" type="SUMO_DEFAULT_TYPE" route="3si_to_4o" begin="0" end="10000000000" period="25"/>
+ 
+<!-- 4si to 1o -->
+ <route id="4si_to_1o" edges="4fi 4si 1o"/>
+ <flow id="4si_to_1o" type="SUMO_DEFAULT_TYPE" route="4si_to_1o" begin="0" end="10000000000" period="25"/>
+  
+<!-- 4si to 2o -->
+ <route id="4si_to_2o" edges="4fi 4si 2o"/>
+ <flow id="4si_to_2o" type="SUMO_DEFAULT_TYPE" route="4si_to_2o" begin="0" end="10000000000" period="25"/>
+ 
+<!-- 4si to 3o -->
+ <route id="4si_to_3o" edges="4fi 4si 3o"/>
+ <flow id="4si_to_3o" type="SUMO_DEFAULT_TYPE" route="4si_to_3o" begin="0" end="10000000000" period="25"/>
+
+ <flow id="1si_to_2o_rush" type="SUMO_DEFAULT_TYPE" route="1si_to_2o" begin="5000" end="9000" period="25"/>
+ <flow id="1si_to_3o_rush" type="SUMO_DEFAULT_TYPE" route="1si_to_3o" begin="5000" end="9000" period="25"/>
+ <flow id="1si_to_4o_rush" type="SUMO_DEFAULT_TYPE" route="1si_to_4o" begin="5000" end="10000" period="25"/>
+ 
+ <flow id="2si_to_1o_rush" type="SUMO_DEFAULT_TYPE" route="2si_to_1o" begin="15000" end="20000" period="25"/>
+ <flow id="2si_to_3o_rush" type="SUMO_DEFAULT_TYPE" route="2si_to_3o" begin="15000" end="20000" period="25"/>
+ <flow id="2si_to_4o_rush" type="SUMO_DEFAULT_TYPE" route="2si_to_4o" begin="15000" end="21000" period="20"/>
+
+  <flow id="3si_to_1o_rush" type="SUMO_DEFAULT_TYPE" route="3si_to_1o" begin="25000" end="30000" period="25"/>
+ <flow id="3si_to_2o_rush" type="SUMO_DEFAULT_TYPE" route="3si_to_2o" begin="25000" end="30000" period="25"/>
+ <flow id="3si_to_4o_rush" type="SUMO_DEFAULT_TYPE" route="3si_to_4o" begin="25000" end="35000" period="25"/>
+
+  <flow id="4si_to_1o_rush" type="SUMO_DEFAULT_TYPE" route="4si_to_1o" begin="40000" end="45000" period="25"/>
+ <flow id="4si_to_2o_rush" type="SUMO_DEFAULT_TYPE" route="4si_to_2o" begin="42000" end="48000" period="25"/>
+ <flow id="4si_to_3o_rush" type="SUMO_DEFAULT_TYPE" route="4si_to_3o" begin="43000" end="45000" period="25"/>
+
+
+</routes>
